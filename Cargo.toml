@@ -14,7 +14,7 @@ keywords = ["chrome", "chromedriver", "puppeteer", "automation"]
 categories = ["web-programming", "api-bindings", "development-tools::testing"]
 
 [dependencies]
-async-tungstenite = { version = "0.32", features = ["tokio-runtime"] }
+async-tungstenite = { version = "0.35", features = ["tokio-runtime"] }
 serde = { version = "1", features = ["derive"] }
 futures = "0.3"
 chromiumoxide_types = { path = "chromiumoxide_types", version = "0.9" }
